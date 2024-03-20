@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>
+    Eiffage : Forum de recrutement
+  </title>
+</head>
+<body>
+  <div class="h-auto md:h-screen w-screen flex">
+    <div class="container h-full relative z-20 items-center m-auto">
+      <div class="flex flex-col items-center justify-center h-full">
+        <div class="intro-text text-center relative z-20 mb-10">
+          <img src="../dist/img/logo.png" class="m-auto" />
+          <h1 class="text-3xl font-serif mb-1">
+            Bienvenue au Forum de recrutement
+          </h1>
+          <p class="opacity-50">
+            50 postes ouverts sur Nice et sa région - Déposez votre CV, vous serez recontactés par nos équipes pour un entretien dans notre monde virtuel à partir du 5 février.
+          </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row w-full relative z-20 gap-2 px-2 mb-10">
+          <div id="offer" class="menu-item group basis-full md:basis-1/3 relative text-center transition-all hover:z-50 hover:scale-105">
+            <div class="font-serif text-2xl h-14 px-4 transition-all group-hover:translate-y-4">Découvrez nos offres sur Nice et sa région</div>
+            <div class="w-full h-4" style="background: #407CBE;"></div>
+            <div class="item-img relative w-full h-72 z-40 overflow-hidden">
+              <div class="absolute w-full h-full bg-contain bg-center bg-[url('img/debut.gif')] transition-all group-hover:scale-110 duration-[5000ms]"></div>
+              <div class="group-hover:opacity-10 transition-all opacity-0 absolute w-full h-full z-20" style="background: #407CBE;"></div>
+            </div>
+          </div>
+          <div id="upload" class="menu-item group basis-full md:basis-1/3 text-center transition-all hover:scale-105 hover:z-50">
+            <div class="font-serif text-2xl h-14 px-4 transition-all group-hover:translate-y-4">Déposez votre CV</div>
+            <div class="w-full h-4" style="background: #F3CB3D;"></div>
+            <div class="item-img relative w-full h-72 z-40 overflow-hidden">
+              <div class="absolute w-full h-full bg-cover bg-center bg-[url('img/milieu.jpg')] transition-all group-hover:scale-110 duration-[5000ms]"></div>
+              <div class="group-hover:opacity-10 transition-all opacity-0 absolute w-full h-full z-20" style="background: #F3CB3D;"></div>
+            </div>
+          </div>
+          <div id="world" class="menu-item group basis-full md:basis-1/3 text-center transition-all hover:scale-105 hover:z-50">
+            <div class="font-serif text-2xl h-14 px-4 transition-all group-hover:translate-y-4">Explorez notre monde virtuel</div>
+            <div class="w-full h-4" style="background: #FF0000;"></div>
+            <div class="item-img relative w-full h-72 overflow-hidden">
+              <div class="absolute w-full h-full bg-cover bg-center bg-[url('img/fin.jpg')] transition-all group-hover:scale-110 duration-[5000ms]"></div>
+              <div class="group-hover:opacity-10 transition-all opacity-0 absolute w-full h-full z-20" style="background: #FF0000;"></div>
+            </div>
+          </div>
+        </div>
+        <iframe src="https://example.edu" style="display: none;" class="w-full h-[80vh] relative z-20"></iframe>
+        <div class="w-[1px] h-full bg-black absolute top-0 left-0" style="background: #EEEEEE;"></div>
+        <div class="w-[1px] h-full bg-black absolute top-0 left-[25%]" style="background: #EEEEEE;"></div>
+        <div class="w-[1px] h-full bg-black absolute top-0 left-[50%]" style="background: #EEEEEE;"></div>
+        <div class="w-[1px] h-full bg-black absolute top-0 left-[75%]" style="background: #EEEEEE;"></div>
+        <div class="w-[1px] h-full bg-black absolute top-0 left-[100%]" style="background: #EEEEEE;"></div>
+      </div>
+    </div>
+  </div>
+  <script
+          src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+<script>
+  $( document ).ready(function() {
+    console.log( "ready!" );
+    $(".menu-item").on('click', function() {
+      $(".intro-text").fadeOut(500);
+      $(".item-img").fadeOut(500);
+    });
+    $("#upload").on('click', function() {
+      $("iframe").attr("src","https://www.youtube.com/embed/mZNO_ZnHIMk");
+      $("iframe").delay(300).fadeIn(300);
+    });
+    $("#offer").on('click', function() {
+      $("iframe").attr("src","https://example.edu");
+      $("iframe").delay(300).fadeIn(300);
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Kepler";
+    font-weight: bold;
+    src:
+            local("Kepler"),
+            url("Kepler.otf") format("opentype");
+}
