@@ -64,17 +64,6 @@ WA.onInit().then(() => {
         }
     });
     WA.player.state.tutorialDone = true;
-    WA.ui.modal.closeModal();
-    setTimeout(() => {
-        WA.ui.modal.closeModal();
-        WA.ui.modal.openModal({
-            src: "https://hugoaverty.github.io/eiffage-UI/src/",
-            allow: "fullscreen",
-            title: "Bienvenue",
-            allowApi: true,
-            position: "center",
-        });
-    }, 1000);
     WA.room.area.onLeave("zoneIntro").subscribe(() => {
         WA.ui.modal.closeModal();
     });
