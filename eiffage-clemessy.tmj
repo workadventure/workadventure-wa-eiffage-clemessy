@@ -1913,28 +1913,6 @@
                  "y":1129.66666666667
                 }, 
                 {
-                 "height":160.666666666667,
-                 "id":195,
-                 "name":"popupHopital",
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":423.333333333333,
-                 "x":2296,
-                 "y":1025.33333333333
-                }, 
-                {
-                 "height":75.3333333333333,
-                 "id":196,
-                 "name":"zonePopupHopital",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1086,
-                 "x":1632.66666666667,
-                 "y":1219.33333333333
-                }, 
-                {
                  "height":0,
                  "id":197,
                  "name":"doorMain",
