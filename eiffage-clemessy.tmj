@@ -2473,28 +2473,6 @@
                  "y":1622.66666666667
                 }, 
                 {
-                 "height":160.5,
-                 "id":211,
-                 "name":"popupBuilding",
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":367,
-                 "x":1226.5,
-                 "y":39.5
-                }, 
-                {
-                 "height":210,
-                 "id":212,
-                 "name":"zoneBuilding",
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":142,
-                 "x":1071,
-                 "y":102.5
-                }, 
-                {
                  "height":349.333333333333,
                  "id":221,
                  "name":"zoneIntro",
@@ -2543,34 +2521,6 @@
                  "width":0,
                  "x":2383,
                  "y":1261
-                }, 
-                {
-                 "height":0,
-                 "id":214,
-                 "name":"txt_popup_building",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Texte popup entr\u00e9e"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":1238.5,
-                 "y":126.5
                 }, 
                 {
                  "height":0,
