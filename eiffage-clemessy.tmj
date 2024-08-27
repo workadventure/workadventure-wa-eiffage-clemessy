@@ -1931,7 +1931,7 @@
                         {
                          "name":"door",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"openLayer",
